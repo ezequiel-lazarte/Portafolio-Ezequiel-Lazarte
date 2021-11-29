@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezequiel Lazarte | Full-Stack Developer</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-black mx-auto">
+    <div class="text-right text-white">
+        <nav class="container bg-black text-right p-2 sm:inline-block md:p-4 md:text-2xl xl:p-6 xl:text-3xl">
+            <a class="transition px-1 hover:text-black hover:bg-white" href="#">Inicio</a>
+            <a class="transition px-1 hover:text-black hover:bg-white" href="#sobre-mi">Sobre Mí</a>
+            <a class="transition px-1 hover:text-black hover:bg-white" href="#proyectos">Proyectos</a>
+            <a class="transition px-1 hover:text-black hover:bg-white" href="#contacto">Contacto</a>
+        </nav>
+        <main class="text-center">
+            <div class="bg-img py-12 text-white md:py-20 xl:py-32">
+                <img class="rounded-full block m-auto w-40 p-4 md:w-60 md:my-4 xl:w-72 xl:my-6" src="images/foto.jpg" alt="fotografia">
+                <h1 class="text-center p-1 text-2xl md:text-3xl md:my-2 xl:text-4xl xl:my-4">Hola!</h3>
+                <h2 class="text-center p-1 text-3xl md:text-4xl md:my-2 xl:text-5xl xl:my-4">Soy Ezequiel Lazarte</h2>
+                <h2 class="text-center p-1 pb-6 text-2xl md:text-3xl md:my-2 xl:text-4xl xl:my-4">- Desarrollador Fullstack -</h1>
+            </div>
+            <div class="px-2 pt-4" id="sobre-mi">
+                <h1 class="text-center border-b-4 border-blue-500 m-1 pb-2 text-2xl md:text-3xl md:m-4 xl:text-4xl xl:m-12 xl:pb-6">Sobre Mi</h1>
+                <p class="my-6 text-justify px-3.5 md:text-xl xl:m-6 xl:text-2xl">Soy estudiante de la carrera Ingeniería en Informática en la UNL-FICH. Mi pasión es la informática, siempre me ha fascina el mundo de la programación. Actualmente, soy desarrollador Fullstack con el stack MERN, mi objetivo prioritario es ir mejorando mis habilidades tanto técnicas como blandas y seguir formándome en distintas disciplinas, todas involucradas con el diseño y desarrollo de software.</p>
+            </div>
+            <div class="px-2" id="proyectos">
+                <h1 class="text-center border-b-4 border-blue-500 mx-1 my-4 pb-2 text-2xl md:text-3xl md:m-4 xl:text-4xl xl:m-12 xl:pb-6">Proyectos</h1>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div>
+                        <h1 class="text-xl pt-12 pb-4 text-blue-300 md:text-2xl xl:text-3xl">Tienda-v</h1>
+                        <img class="block m-auto w-11/12 border-2 border-gray-600" src="images/tienda-v.png" alt="screenshop de la api en el navegador">
+                        <p class="m-3 text-justify md:text-xl xl:m-8 xl:text-2xl">Este es un proyecto personal donde pongo en práctica los conocimientos que adquirí en el curso de NodeJs con Express. Es un Api Rest que cuenta con tres categorías pensados en la gestión de una tienda, además este servidor soporta los cuatro métodos principales del protocolo HTTP.</p>
+
+                        <a href="https://tienda-v.herokuapp.com/">
+                            <button class="text-black text-xs rounded-full bg-blue-400 px-6 py-1 md:text-sm xl:text-xl">Ver Más</button>
+                        </a>
+                    </div>
+                    <div>
+                        <h1 class="text-xl pt-12 pb-4 text-blue-300 md:text-2xl xl:text-3xl">Lista de Juegos</h1>
+                        <img class="block m-auto w-11/12 border-2 border-gray-600" src="images/web-games.png" alt="screenshop de la pagina de videojuegos">
+                        <p class="m-3 text-justify md:text-xl xl:m-8 xl:text-2xl">Página web que desarrolle enfocado a los videojuegos, donde podemos ver una lista de videojuegos, en cada apartado se puede ver una imagen y una breve descripción del mismo indicando fecha de lanzamiento, plataforma y año de estreno entre otros. Fue desarrollado con Vainilla Javascript, Bootstrap 5 para el maquetado y HTML5.</p>
+                        <a href="https://lista-de-juegos.000webhostapp.com/">
+                            <button class="text-black text-xs rounded-full bg-blue-400 px-6 py-1 md:text-sm xl:text-xl">Ver Más</button>
+                        </a>
+                    </div>
+                    <div>
+                        <h1 class="text-xl pt-12 pb-4 text-blue-300 md:text-2xl xl:text-3xl">Invasión Zombie</h1>
+                        <img class="block m-auto w-11/12 border-2 border-gray-600" src="images/invacion-zombie.png" alt="screenshop del videojuego">
+                        <p class="m-3 text-justify md:text-xl xl:m-8 xl:text-2xl">Es un videojuego 2D del género survival horror para PC, el objetivo es sobrevivir la máxima cantidad de noches, matando a los distintos tipos de enemigos, mientras más noches sobrevivamos más difícil y fuertes serán los mismos. Este es un proyecto final para la materia POO y aún no está acabado, se está desarrollando con C++ y la librería SFML, sin utilizar motores gráficos.</p>
+                        <a href="https://github.com/ezequiel-lazarte/Invacion_Zombie">
+                            <button class="text-black text-xs rounded-full bg-blue-400 px-6 py-1 md:text-sm xl:text-xl">Ver Más</button>
+                        </a>
+                    </div>
+                    <div>
+                        <h1 class="text-xl pt-12 pb-4 text-blue-300 md:text-2xl xl:text-3xl">Proyecto 4</h1>
+                        <img class="block m-auto w-11/12 border-2 border-gray-600" src="" alt="">
+                        <p class="m-3 text-justify md:text-xl xl:m-8 xl:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti omnis adipisci molestiae hic deleniti sit! Earum culpa fuga incidunt saepe laborum quidem ratione facere omnis, repellat doloremque molestiae. Totam, fugiat.
+                        Nobis iste praesentium et libero impedit ea voluptate sed! Officiis deserunt odit alias, earum tenetur ex suscipit ea, ipsum nesciunt corrupti iusto neque quo autem dolorem in omnis ut eum.</p>
+                        <a href="">
+                            <button class="text-black text-xs rounded-full bg-blue-400 px-6 py-1 md:text-sm xl:text-xl">Ver Más</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="px-2 pb-6" id="contacto">
+                <h1 class="text-center border-b-4 border-blue-500 mx-1 my-4 mt-8 pb-2 text-2xl md:text-3xl md:m-4 xl:text-4xl xl:m-12 xl:pb-6">Contacto</h1>
+                <p class="text-justify p-2 mt-6 md:text-xl xl:m-6 xl:mx-12 xl:text-2xl">Contáctame, estaré a disposición para cualquier consulta o duda que te surja.
+                ¡Que tengas un excelente día!</p>
+                <p class="text-left px-2 pt-4 pb-2 md:text-xl xl:m-6 xl:mx-12 xl:text-2xl">Teléfono: +54 342 4274240</p>
+                <p class="text-left px-2 py-2 md:text-xl xl:m-6 xl:mx-12 xl:text-2xl">Email: ezequiellazarterodrigo@gmail.com</p>
+                <div class="grid grid-cols-2">
+                    <a href="https://www.linkedin.com/in/ezequiel-lazarte">
+                        <img class="m-auto my-4 w-12 md:w-16 xl:w-24" src="images/linkedin.png" alt="logo linkedin">
+                    </a>
+                    <a href="https://github.com/ezequiel-lazarte">
+                        <img class="m-auto my-4 w-12 md:w-16 xl:w-24" src="images/github.png" alt="logo linkedin">
+                    </a>
+                </div>
+                
+            </div>
+        </main>
+        <footer class="bg-gray-400 text-black text-center p-3 py-20 border-t-2">
+            <p class="text-sm md:text-base xl:text-lg">
+                Copyright © 2021<br>
+                Todos los derechos reservados
+            </p>
+        </footer>
+        <a href="#">
+            <img class="w-8 m-4 border rounded-full bg-white bg-opacity-20 fixed bottom-0 right-0 hover:bg-opacity-50 md:w-10 md:m-6 xl:w-12 xl:m12" src="images/punta-de-flecha-hacia-arriba.png" alt="flecha hacia arriba">
+        </a>
+    </div>
+</body>
+</html>

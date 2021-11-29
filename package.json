@@ -1,0 +1,17 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio de Ezequiel Lazarte Rodrigo",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "compilercss": "npx tailwindcss -o tailwind.css --watch"
+  },
+  "author": "Ezequiel Lazarte",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
