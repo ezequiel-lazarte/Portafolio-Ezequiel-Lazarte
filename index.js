@@ -1,0 +1,1 @@
+let Buton = document.getElementById("Simulador").disabled = true;
