@@ -8,6 +8,9 @@ html {
     position: relative;
 }
 
+.bg-body {
+}
+
 .img, .button, .icon {
     transition: .9s;
 }
