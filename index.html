@@ -12,11 +12,11 @@
 <body class="bg-body bg-transparent text-black mx-auto dark:bg-black dark:text-white">
     <div class="text-righ">
         <nav class="container max-w-full text-sm text-right p-2 sm:inline-block sm:text-base md:text-lg md:p-4 xl:p-6 xl:text-xl">
-            <a class="transition p-1 button-h hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white" href="#">Inicio</a>
-            <a class="transition p-1 hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white" href="#sobre-mi">Sobre Mí</a>
-            <a class="transition p-1 hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white" href="#habilidades">Habilidades</a>
-            <a class="transition p-1 hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white" href="#proyectos">Proyectos</a>
-            <a class="transition p-1 hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white" href="#contacto">Contacto</a>
+            <a class="transition p-1 button-h rounded hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white" href="#">Inicio</a>
+            <a class="transition p-1 rounded hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white" href="#sobre-mi">Sobre Mí</a>
+            <a class="transition p-1 rounded hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white" href="#habilidades">Habilidades</a>
+            <a class="transition p-1 rounded hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white" href="#proyectos">Proyectos</a>
+            <a class="transition p-1 rounded hover:text-white hover:bg-black dark:hover:text-black dark:hover:bg-white" href="#contacto">Contacto</a>
         </nav>
         <main class="text-center">
             <div class="bg-img py-12 text-black md:py-20 xl:py-32">
@@ -34,34 +34,73 @@
                 <div>
                     <h2 class="text-center pt-8 pb-2 text-xl md:text-2xl xl:text-3xl xl:pt-12">Lenguajes Básicos</h2>
                     <div class="block m-auto w-5/12 sm:grid sm:grid-cols-3">
-                        <img class="sm:w-10/12 my-5 p-2 mx-auto w-1/2 img" src="images/habilidades/html5.png" alt="logo html5">
-                        <img class="sm:w-10/12 my-5 p-2 mx-auto w-1/2 img" src="images/habilidades/css3.png" alt="logo css3">
-                        <img class="sm:w-10/12 my-5 p-2 mx-auto w-1/2 img sm:pt-3 xl:pt-4" src="images/habilidades/js.png" alt="logo javascript">
+                        <div class="grid grid-rows-2 -mb-20">
+                            <img class="sm:w-10/12 mt-5 p-2 mx-auto w-1/2 img" src="images/habilidades/html5.png" alt="logo html5">
+                            <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">HTML 5</p>
+                        </div>
+                        <div class="grid grid-rows-2 -mb-20">
+                            <img class="sm:w-10/12 mt-5 p-2 mx-auto w-1/2 img" src="images/habilidades/css3.png" alt="logo css3">
+                            <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">CSS 3</p>
+                        </div>
+                        <div class="grid grid-rows-2 -mb-20">
+                            <img class="sm:w-10/12 mt-5 p-2 mx-auto w-1/2 img sm:pt-3 xl:pt-4" src="images/habilidades/js.png" alt="logo javascript">
+                            <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">Javascript</p>
+                        </div>
                     </div>
                     <h2 class="text-center pt-12 pb-2 text-xl md:text-2xl xl:text-3xl xl:pt-12">Más Lenguajes y Tecnologías</h2>
                     <div class="block pt-3 m-auto w-5/12 sm:grid sm:grid-cols-3">
-                        <img class="sm:w-4/6 my-5 mx-auto p-1 w-1/2 img sm:p-0.5" src="images/habilidades/typescript.png" alt="logo typescript">
-                        <img class="sm:w-4/6 my-5 mx-auto w-1/2 img" src="images/habilidades/c++.png" alt="logo c++">
-                        <img class="sm:w-11/12  mx-auto w-3/4 img" src="images/habilidades/java.png" alt="logo java">
+                        <div class="grid grid-rows-2 -mb-20 grid-flow-row auto-rows-min">
+                            <img class="sm:w-4/6 mt-5 mb-1 mx-auto p-1 w-1/2 img sm:p-0.5" src="images/habilidades/typescript.png" alt="logo typescript">
+                            <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">Typescript</p>
+                        </div>
+                        <div class="grid grid-rows-2 -mb-20 grid-flow-row auto-rows-min">
+                            <img class="sm:w-4/6 mt-5 mb-2 mx-auto w-1/2 img" src="images/habilidades/c++.png" alt="logo c++">
+                            <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">C++</p>
+                        </div>
+                        <div class="grid grid-rows-2 -mb-20 grid-flow-row auto-rows-min">
+                            <img class="sm:w-11/12  mx-auto w-3/4 img" src="images/habilidades/java.png" alt="logo java">
+                            <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">Java</p>
+                        </div>
                     </div>
                     <h2 class="text-center pt-12 pb-2 text-xl md:text-2xl xl:text-3xl xl:pt-12">Mas de Javascript</h2>
                     <div class="block m-auto w-5/12 sm:grid sm:grid-cols-3">
-                        <img class="sm:w-10/12 my-5 p-2 mx-auto w-1/2 img" src="images/habilidades/react.png" alt="logo react js">
-                        <img class="sm:w-10/12 my-5 mx-auto mt-5 w-1/2 img" src="images/habilidades/nodejs.png" alt="logo nodejs">
-                        <img class="sm:w-10/12 my-5 p-2 rounded-full mx-auto w-1/2 img" src="images/habilidades/express.png" alt="logo express">
+                        <div class="grid grid-rows-2 -mb-20 grid-flow-row auto-rows-min">
+                            <img class="sm:w-10/12 mt-5 p-2 mx-auto w-1/2 img" src="images/habilidades/react.png" alt="logo react js">
+                            <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">React JS</p>
+                        </div>
+                        <div class="grid grid-rows-2 -mb-20 grid-flow-row auto-rows-min">
+                            <img class="sm:w-10/12 mb-2 mt-5 mx-auto w-1/2 img" src="images/habilidades/nodejs.png" alt="logo nodejs">
+                            <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">Node JS</p>
+                        </div>
+                        <div class="grid grid-rows-2 pt-4 sm:pt-0 -mb-20 grid-flow-row auto-rows-min">
+                            <img class="sm:w-10/12 mt-5 p-2 rounded-full mx-auto w-1/2 img" src="images/habilidades/express.png" alt="logo express">
+                            <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">Express JS</p>
+                        </div>
                     </div>
                     <h2 class="text-center pt-12 pb-2 text-xl md:text-2xl xl:text-3xl xl:pt-12">Frameworks de CSS</h2>
                     <div class="block m-auto w-5/12 sm:grid sm:grid-cols-4">
                         <span></span>
-                        <img class="sm:w-10/12 my-5 mx-auto p-3 w-1/2 img sm:p-0 md:p-1" src="images/habilidades/bootstrap.png" alt="logo bootstrap">
-                        <img class="sm:w-10/12 my-5 py-3 mx-auto w-1/2 img" src="images/habilidades/tailwind.png" alt="logo tailwind">
+                            <div class="grid sm:-ml-9 md:mx-0 grid-rows-2 -mb-20 grid-flow-row auto-rows-min">
+                                <img class="sm:w-10/12 mt-5 mx-auto p-3 w-1/2 img sm:p-0 md:p-1" src="images/habilidades/bootstrap.png" alt="logo bootstrap">
+                                <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">Bootstrap</p>
+                            </div>
+                            <div class="grid sm:mx-9 md:mx-0 grid-rows-2 -mb-20 grid-flow-row auto-rows-min">
+                                <img class="sm:w-10/12 mt-5 py-3 mx-auto w-1/2 img" src="images/habilidades/tailwind.png" alt="logo tailwind">
+                                <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">Tailwind</p>
+                            </div>
                         <span></span>
                     </div>
                     <h2 class="text-center pt-12 pb-2 text-xl md:text-2xl xl:text-3xl xl:pt-12">Bases de Datos</h2>
-                    <div class="block m-auto w-5/12 sm:grid sm:grid-cols-4">
+                    <div class="block sm:pb-9 m-auto w-5/12 sm:grid sm:grid-cols-4">
                         <span></span>
-                        <img class="sm:w-10/12 my-5 mx-auto p-3 w-1/2 img sm:p-0 md:p-1" src="images/habilidades/mongodb.png" alt="logo mongodb">
-                        <img class="sm:w-10/12 my-5 mx-auto w-1/2 img" src="images/habilidades/firebase.png" alt="logo firebase">
+                        <div class="grid sm:-ml-9 md:mx-0 grid-rows-2 -mb-20 grid-flow-row auto-rows-min">
+                            <img class="sm:w-10/12 mt-5 mx-auto p-3 w-1/2 img sm:p-0 md:p-1" src="images/habilidades/mongodb.png" alt="logo mongodb">
+                            <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">MongoDB</p>
+                        </div>
+                        <div class="grid sm:mx-9 md:mx-0 grid-rows-2 -mb-20 grid-flow-row auto-rows-min">
+                            <img class="sm:w-10/12 mt-5 mx-auto w-1/2 img" src="images/habilidades/firebase.png" alt="logo firebase">
+                            <p class="text-xs pt-2 sm:pt-4 sm:text-lg text-black dark:text-white">Firebase</p>
+                        </div>
                         <span></span>
                     </div>
                 </div>
